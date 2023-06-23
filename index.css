@@ -1,0 +1,109 @@
+.homepage{
+    width: 1440px;
+    height: 8025px;
+    
+
+}
+.header{
+    height:50px;
+    width:1200px;
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:399px;
+}
+.header_left{
+    align-items: center;
+    gap:10px;
+    width: 177px;
+    height: 50px;
+    display:flex;
+}
+.header_left_title{
+    width: 133px;
+    height: 50px;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+
+
+}
+.header_right{
+    align-items: center;
+    display: flex;
+    width: 624px;
+    height: 25px;
+    gap: 45px;
+}
+.right_items{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Jost;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.image_banner{
+    background: url("./assets/images/Image.svg");
+    width: 1201px;
+    height: 758px;
+    margin-top: 157px;
+    margin-left: 120px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+.inside_banner{
+    width: 434px;
+    height: 342px;
+    margin-top: 200px;
+    margin-left: 27px;
+
+}
+.heading_inside_banner{
+    width: 434px;
+    height: 162px;
+    font-family: DM Serif Display;
+    font-size: 28px;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.para_inside_banner{
+    margin-top: -35px;
+    width: 433px;
+    height: 66px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+
+
+.button_inside_banner{
+    width: 220px;
+    height: 75px;
+    padding: 26px 49px 26px 48px;
+    border-radius: 18px;
+    gap: 10px;
+    background-color: #292F36;
+    color:white;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    display: flex;
+}
+.arrow_class{
+    margin-left:1px;
+    margin-top: 2px;
+}
