@@ -48,8 +48,8 @@
 }
 .image_banner{
     background: url("./assets/images/Image.svg");
-    width: 1201px;
-    height: 758px;
+    width: 1191px;
+    height: 738px;
     margin-top: 157px;
     margin-left: 120px;
     padding-top: 20px;
@@ -89,9 +89,10 @@
 
 
 .button_inside_banner{
+    margin-top:15px;
     width: 220px;
     height: 75px;
-    padding: 26px 49px 26px 48px;
+    padding: 22px 27px 26px 43px;
     border-radius: 18px;
     gap: 10px;
     background-color: #292F36;
@@ -103,7 +104,75 @@
     letter-spacing: 0.02em;
     display: flex;
 }
-.arrow_class{
-    margin-left:1px;
+.arrow_class1{
     margin-top: 2px;
+   
+}
+.arrow_class2{
+    margin-left: 3px;
+    margin-top: -1px;
+    height: 21px;
+    width: 15px;
+}
+
+.project_interior_realization{
+    width:1158px;
+    height:225px;
+    margin-top: 450px;
+    margin-left: -11px;
+    gap: 42px;
+    display: flex;
+}
+.description{
+    height:225px;
+    width:358px;
+    gap: 52;
+    text-align: center;
+}
+.project_plan_heading_and_desc{
+    width: 358px;
+    height:150px;
+    gap: 20px;
+    text-align: center;
+
+}
+.project_plan{
+    margin-top: -36px;
+    margin-left: 104px;
+    width: 133px;
+    height: 31px;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    letter-spacing: 0em;
+    text-align: center;
+   
+}
+.project_desc{
+    width: 358px;
+    height: 99px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+.read_more_button{
+    width: 130px;
+    height: 23px;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: white;
+    border:0px;
+    display: flex;
+    align-items: center;
+    margin-left: 119px;
+    margin-top: 53px;
+
 }
