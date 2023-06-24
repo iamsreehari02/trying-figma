@@ -89,10 +89,10 @@
 
 
 .button_inside_banner{
-    margin-top: 15px;
+    margin-top: 45px;
     width: 243px;
     height: 75px;
-    padding: 21px 0px 23px 20px;
+    padding: 24px 17px 28px 26px;
     border-radius: 18px;
     gap: 10px;
     background-color: #292F36;
@@ -184,7 +184,6 @@
     margin-left: 120px;
     gap: 75px;
     margin-top: 90px;
-    border: 1px solid;
     display: flex;
 
 }
@@ -192,7 +191,6 @@
     width: 472px;
     height: 614px;
     gap: 45px;
-    border: 1px solid;
     margin-top: -1300px;
     margin-left:-120px;
 }
@@ -200,7 +198,6 @@
     width:472px;
     height: 354px;
     gap: 33px;
-    border:1px solid
 
 }
 .heading_inside_banner2{
@@ -230,7 +227,6 @@
     width: 277px;
     height: 215px;
     gap: 47px;
-    border: 1px solid;
 
 }
 .call_part{
@@ -238,13 +234,11 @@
     height: 93;
     gap: 15px;
     display: flex;
-    border:1px solid;
 
 }
 .logo_part{
     width: 93px;
     height: 93px;
-    border:1px solid;
     border-radius:50%;
     background-color:#F4F0EC;
 
@@ -259,7 +253,6 @@
 .number_main_part{
     width:169px;
     height: 64px;
-    border:1px solid;
     margin-top:14px
 }
 .number_part{
@@ -283,4 +276,381 @@
     line-height: 33px;
     letter-spacing: 0.01em;
     text-align: left;
+}
+.image_banner_right{
+    width: 653px;
+    height: 700px;
+    margin-top:-1297px;
+    border-top-right-radius: 335px;
+    border-bottom-left-radius: 126px;
+    overflow: hidden;
+
+}
+.review{
+    width: 1199px;
+    height: 679px;
+    margin-top: -1100;
+    margin-left: 120px;
+    border-radius:50px;
+    background-color:#F4F0EC;
+
+}
+.reviews_division{
+    width: 1150px;
+    height: 503px;
+    margin-top: 86px;
+    margin-left: 23px;
+    gap: 38px;
+    text-align: center;
+}
+.review_head{
+    margin-top:76px;
+    color:#292F36;
+    width: 547px;
+    height: 126px;
+    display: inline-block;
+    font-family: DM Serif Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.comments{
+    margin-top:35px;
+    width: 1150px;
+    height: 339px;
+    gap: 20px;
+    display:flex;
+
+}
+.comment_one{
+    width:370px;
+    height: 339px;
+    border-radius:50px;
+    background-color: #FFFFFF;
+
+}
+.comment_two{
+    width:370px;
+    height: 339px;
+    border-radius:50px;
+    background-color: #FFFFFF;
+}
+.comment_three{
+    width:370px;
+    height: 339px;
+    border-radius:50px;
+    background-color: #FFFFFF;
+
+}
+.pic_and_comment_one{
+    width: 296px;
+    height:286px;
+    margin-left:35px;
+    margin-top:52px;
+    gap: 25px;
+
+}
+.picture_and_name_one{
+    width:257px;
+    height: 77px;
+    gap: 23px;
+    display: flex;
+
+}
+.picture_division_one{
+    width: 77px;
+    height: 77px;
+    border-radius:50%;
+    overflow: hidden;
+
+}
+.name_and_place_division_one{
+    width: 157px;
+    height: 75px;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+
+}
+.name_division_one{
+    height:48px;
+    width:195px;
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#292F36;
+
+}
+.city_and_country_one{
+    margin-top:-16px;
+    height:25px;
+    width:195px;
+    display: flex;
+    color:#4D5053;
+}
+.city_division_one{
+    height: 90px;
+    width: 59px;
+    margin-top: -28px;
+    font-family: DM Serif Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+}
+.country_division_one{
+    height: 100px;
+    width: 69px;
+    margin-top: -22px;
+    margin-left: 19px;
+    font-family: DM Serif Display;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.comment_section_one{
+    margin-left: 35px;
+    margin-top: -209px;
+    width: 296px;
+    height: 120px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#4D5053;
+
+}
+.pic_and_comment_two{
+    width: 296px;
+    height:286px;
+    margin-left:35px;
+    margin-top:52px;
+    gap: 25px;
+
+}
+.pic_and_comment_two{
+    width: 296px;
+    height:286px;
+    margin-left:35px;
+    margin-top:52px;
+    gap: 25px;
+}
+.picture_and_name_two{
+    width:257px;
+    height: 77px;
+    gap: 23px;
+    display: flex;
+
+}
+.picture_division_two{
+    width: 77px;
+    height: 77px;
+    border-radius:50%;
+    overflow: hidden;
+
+}
+.name_and_place_division_two{
+    width: 157px;
+    height: 75px;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+
+}
+.name_division_two{
+    height:48px;
+    width:234px;
+    font-family: Jost;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#292F36;
+
+}
+.city_and_country_two{
+    margin-top:-16px;
+    height:25px;
+    width:195px;
+    display: flex;
+    color:#4D5053;
+}
+.city_division_two{
+    height: 90px;
+    width: 59px;
+    margin-top: -28px;
+    font-family: DM Serif Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+}
+.country_division_two{
+    height: 100px;
+    width: 69px;
+    margin-top: -22px;
+    margin-left: 19px;
+    font-family: DM Serif Display;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.comment_section_two{
+    margin-left: 35px;
+    margin-top: -209px;
+    width: 296px;
+    height: 120px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#4D5053;
+}
+.pic_and_comment_three{
+    width: 296px;
+    height:286px;
+    margin-left:35px;
+    margin-top:52px;
+    gap: 25px;
+
+}
+.pic_and_comment_three{
+    width: 296px;
+    height:286px;
+    margin-left:35px;
+    margin-top:52px;
+    gap: 25px;
+}
+.picture_and_name_three{
+    width:257px;
+    height: 77px;
+    gap: 23px;
+    display: flex;
+
+}
+.picture_division_three{
+    width: 77px;
+    height: 77px;
+    border-radius:50%;
+    overflow: hidden;
+
+}
+.name_and_place_division_three{
+    width: 157px;
+    height: 75px;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+
+}
+.name_division_three{
+    height:48px;
+    width:234px;
+    font-family: Jost;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#292F36;
+
+}
+.city_and_country_three{
+    margin-top:-16px;
+    height:25px;
+    width:195px;
+    display: flex;
+    color:#4D5053;
+}
+.city_division_three{
+    height: 90px;
+    width: 59px;
+    margin-top: -28px;
+    font-family: DM Serif Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+}
+.country_division_three{
+    height: 100px;
+    width: 87px;
+    margin-top: -22px;
+    margin-left: 19px;
+    font-family: DM Serif Display;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.comment_section_three{
+    margin-left: 35px;
+    margin-top: -209px;
+    width: 296px;
+    height: 120px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#4D5053;
+}
+.logos{
+    width: 1090px;
+    height: 102.32px;
+    margin-top: 200px;
+    margin-left: 144px;
+    gap: 108px;
+    display: flex;
+
+}
+.logo_one{
+    width: 131.28289794921875px;
+    height: 42.3668212890625px;
+    margin-top:31px
+}
+.logo_two{
+    width: 102.31986999511719px;
+    height: 102.31986999511719px;
+    
+
+}
+.logo_three{
+    width: 163.3796844482422px;
+    height: 42.776031494140625px;
+    margin-top:31px
+}
+.logo_four{
+    width: 144.70095825195312px;
+    height: 44.06282424926758px;
+    margin-top:31px
+
+}
+.logo_five{
+    width: 116.7086181640625px;
+    height: 47.16305923461914px;
+    padding: 0px 8.344650268554688e-7px 0px 0px;
+    margin-top:31px
 }
