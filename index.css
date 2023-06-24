@@ -63,7 +63,7 @@
     margin-left: 27px;
 
 }
-.heading_inside_banner{
+.heading_inside_banner1{
     width: 434px;
     height: 162px;
     font-family: DM Serif Display;
@@ -73,7 +73,7 @@
     text-align: left;
 
 }
-.para_inside_banner{
+.para_inside_banner1{
     margin-top: -35px;
     width: 433px;
     height: 66px;
@@ -89,10 +89,10 @@
 
 
 .button_inside_banner{
-    margin-top:15px;
-    width: 220px;
+    margin-top: 15px;
+    width: 243px;
     height: 75px;
-    padding: 22px 27px 26px 43px;
+    padding: 21px 0px 23px 20px;
     border-radius: 18px;
     gap: 10px;
     background-color: #292F36;
@@ -118,8 +118,8 @@
 .project_interior_realization{
     width:1158px;
     height:225px;
-    margin-top: 450px;
-    margin-left: -11px;
+    margin-top: 150px;
+    margin-left: 132px; 
     gap: 42px;
     display: flex;
 }
@@ -175,4 +175,112 @@
     margin-left: 119px;
     margin-top: 53px;
 
+}
+.image_banner_2{
+    padding-left: 119px;
+    width: 1091px;
+    height: 700px;
+    padding-top: 1421px;
+    margin-left: 120px;
+    gap: 75px;
+    margin-top: 90px;
+    border: 1px solid;
+    display: flex;
+
+}
+.image_banner_left{
+    width: 472px;
+    height: 614px;
+    gap: 45px;
+    border: 1px solid;
+    margin-top: -1300px;
+    margin-left:-120px;
+}
+.content_inside{
+    width:472px;
+    height: 354px;
+    gap: 33px;
+    border:1px solid
+
+}
+.heading_inside_banner2{
+    width: 434px;
+    height: 154px;
+    font-family: DM Serif Display;
+    font-size: 23px;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.para_inside_banner2{
+    margin-top: 47px;
+    width: 433px;
+    height: 66px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+.call_and_button{
+    margin-top:42px;
+    width: 277px;
+    height: 215px;
+    gap: 47px;
+    border: 1px solid;
+
+}
+.call_part{
+    width: 277;
+    height: 93;
+    gap: 15px;
+    display: flex;
+    border:1px solid;
+
+}
+.logo_part{
+    width: 93px;
+    height: 93px;
+    border:1px solid;
+    border-radius:50%;
+    background-color:#F4F0EC;
+
+
+}
+.logoo{
+    height:34px;
+    width:34px;
+    margin-top: 29px;
+    margin-left: 29px;
+}
+.number_main_part{
+    width:169px;
+    height: 64px;
+    border:1px solid;
+    margin-top:14px
+}
+.number_part{
+    margin-top: -30px;
+    width: 141px;
+    height: 33px;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+.para_part{
+    margin-top: -19px;
+    width: 169px;
+    height: 31px;
+    font-family: Jost;
+    font-size: 22px;    
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
 }
