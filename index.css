@@ -654,3 +654,155 @@
     padding: 0px 8.344650268554688e-7px 0px 0px;
     margin-top:31px
 }
+.projects{
+    width: 1202px;
+    height:1541px;
+    margin-top: 240px;
+    margin-left: 120px;
+    gap: 93px;
+    text-align: center;
+
+}
+.project_head_and_para{
+    width:737px;
+    height:137px;
+    gap: 8px;
+    display: inline-block;
+    text-align: center;
+}
+.project_head{
+    width: 451px;
+    height: 63px;
+    font-family: DM Serif Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 6px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    display: inline-block;
+    color: #292F36;
+}
+.project_para{
+    margin-top:-14;
+    width: 737px;
+    height: 85px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color:#4D5053;
+
+}
+.images_inside{
+    width: 1201px;
+    height: 1311px;
+    gap: 56px;
+    margin-top: 91px;
+    margin-left: -233px;
+
+    
+}
+.upper_images{
+    display: flex;
+    width:1201px;
+    height:619px;
+    gap: 104px;
+}
+.lower_images{
+    display: flex;
+    margin-top:70px;
+    width:1201px;
+    height:619px;
+    gap: 104px;
+}
+.upper_left_image{
+    width:619px;
+    height: 617px;
+    gap: 24px;
+    
+}
+.upper_right_image{
+    
+    width:619px;
+    height: 617px;
+    gap: 24px;
+
+}
+.lower_left_image{
+    width:619px;
+    height: 619px;
+    gap: 24px;
+}
+.lower_right_image{
+    width:619px;
+    height: 619px;
+    gap: 24px;
+
+}
+.left_image_banner{
+    width: 548;
+    height: 548;
+    border-top-right-radius:80px;
+    overflow: hidden;
+
+}
+.left_image_footer{
+    width: 548px;
+    height: 67px;
+    gap: 260px;
+    
+    display: flex;
+
+}
+.left_heading_div{
+    width: 217px;
+    height: 66px;
+    gap: 4px;
+    
+
+}
+.main_heading{
+    width: 184px;
+    height: 31px;
+    font-family: DM Serif Display;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#292F36;
+    
+
+}
+.sub_para{
+    margin-top:-16px;
+    width: 216px;
+    height: 32px;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#4D5053;
+    
+
+}
+.right_logo_div{
+    width: 66px;
+    height: 66px;
+    background-color: #F4F0EC;
+    border-radius:50%;
+    
+
+}
+.logo_division{
+    width: 8px;
+    height: 18px;
+    margin-top: 24px;
+    margin-left: 29px;
+    border: 2px;
+
+}
