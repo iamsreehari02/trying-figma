@@ -993,10 +993,10 @@
 }
 .history{
     padding-top: 10px;
-    width: 1750px;
+    width: 100vw;
     height: 457px;
     margin-top: 300px;
-    margin-left: -240px;
+    margin-left: -25px;
     background-color: #F4F0EC;
 
 }
@@ -1004,7 +1004,7 @@
     width: 1082;
     height: 155px;
     margin-top: 152px;
-    margin-left: 439px;
+    margin-left: 234px;
     gap: 76px;
     display: flex;
 }
