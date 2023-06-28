@@ -1,15 +1,18 @@
 .homepage{
-    width: 100%;
-    height: 10000px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     
     
 
 }
 .header{
     height:50px;
-    width:1200px;
+    max-width:1200px;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +21,7 @@
 .header_left{
     align-items: center;
     gap:10px;
-    width: 177px;
+    width: auto;
     height: 50px;
     display:flex;
 }
@@ -35,7 +38,7 @@
 .header_right{
     align-items: center;
     display: flex;
-    width: 624px;
+    width: auto;
     height: 25px;
     gap: 45px;
 }
@@ -49,20 +52,22 @@
 }
 .image_banner{
     background: url("./assets/images/Image.svg");
-    width: 1191px;
-    height: 738px;
-    margin-top: 157px;
-    margin-left: 150px;
-    padding-top: 20px;
-    padding-left: 10px;
+    max-width: 1200px;
+    min-height: 720px;
     border-radius: 70px;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    
 
 }
 .inside_banner{
     width: 434px;
     height: 342px;
-    margin-top: 200px;
-    margin-left: 27px;
 
 }
 .heading_inside_banner1{
@@ -73,6 +78,7 @@
     line-height: 63px;
     letter-spacing: 0em;
     text-align: left;
+    gap:20px;
 
 }
 .para_inside_banner1{
@@ -91,10 +97,10 @@
 
 
 .button_inside_banner{
-    margin-top: 45px;
+    margin-top: 29px;
     width: 243px;
     height: 75px;
-    padding: 26px 0px 23px 60px;
+    padding: 23px 0px 23px 36px;
     border-radius: 18px;
     gap: 10px;
     background-color: #292F36;
@@ -103,11 +109,10 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 23px;
-    letter-spacing: 0.02em;
     display: flex;
 }
 .arrow_class1{
-    margin-top: 2px;
+    margin-top:3px;
    
 }
 .arrow_class2{
@@ -118,8 +123,8 @@
 }
 
 .project_interior_realization{
-    width:1158px;
-    height:225px;
+    max-width:1158px;
+    height:auto;
     margin-top: 150px;
     margin-left: 150px; 
     gap: 42px;
@@ -180,18 +185,18 @@
 }
 .image_banner_2{
     padding-left: 119px;
-    width: 1091px;
-    height: 700px;
+    max-width: 1091px;
+    height: auto;
     padding-top: 1421px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right:auto;
     gap: 75px;
-    margin-top: 90px;
     display: flex;
 
 }
 .image_banner_left{
     width: 472px;
-    height: 614px;
+    height: autopx;
     gap: 45px;
     margin-top: -1300px;
     margin-left:-120px;
@@ -232,6 +237,7 @@
 
 }
 .call_part{
+   
     width: 277;
     height: 93;
     gap: 15px;
@@ -249,8 +255,8 @@
 .logoo{
     height:34px;
     width:34px;
-    margin-top: 29px;
-    margin-left: 29px;
+    margin-top: 30px;
+    margin-left:29px;
 }
 .number_main_part{
     width:169px;
@@ -280,8 +286,8 @@
     text-align: left;
 }
 .image_banner_right{
-    width: 653px;
-    height: 700px;
+    max-width: 653px;
+    height: auto;
     margin-top:-1297px;
     border-top-right-radius: 335px;
     border-bottom-left-radius: 126px;
@@ -289,17 +295,19 @@
 
 }
 .review{
-    width: 1199px;
-    height: 679px;
-    margin-top: -1100;
-    margin-left: 150px;
+    padding-bottom:50px;
+    max-width: 1199px;
+    height:auto;
+    margin-top: -500px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius:50px;
     background-color:#F4F0EC;
 
 }
 .reviews_division{
-    width: 1150px;
-    height: 503px;
+    max-width: 1150px;
+    height: auto;
     margin-top: 86px;
     margin-left: 23px;
     gap: 38px;
@@ -308,7 +316,7 @@
 .review_head{
     margin-top:76px;
     color:#292F36;
-    width: 547px;
+    max-width: 547px;
     height: 126px;
     display: inline-block;
     font-family: DM Serif Display;
@@ -320,8 +328,8 @@
 }
 .comments{
     margin-top:35px;
-    width: 1150px;
-    height: 339px;
+    max-width: 1150px;
+    height: auto;
     gap: 20px;
     display:flex;
 
@@ -620,12 +628,13 @@
     color:#4D5053;
 }
 .logos{
-    width: 1090px;
-    height: 102.32px;
+    max-width: 1090px;
+    height: auto;
     margin-top: 200px;
-    margin-left: 209px;
-    gap: 108px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    gap: 108px;
 
 }
 .logo_one{
@@ -657,16 +666,17 @@
     margin-top:31px
 }
 .projects{
-    width: 1202px;
-    height:1541px;
+    max-width: 1202px;
+    height:auto;
     margin-top: 240px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 93px;
     text-align: center;
 
 }
 .project_head_and_para{
-    width:737px;
+    max-width:737px;
     height:137px;
     gap: 8px;
     display: inline-block;
@@ -686,7 +696,7 @@
 }
 .project_para{
     margin-top:-14;
-    width: 737px;
+    max-width: 737px;
     height: 85px;
     font-family: Jost;
     font-size: 22px;
@@ -698,7 +708,7 @@
 
 }
 .images_inside{
-    width: 1201px;
+    max-width: 1201px;
     height: 1311px;
     gap: 56px;
     margin-top: 91px;
@@ -708,43 +718,43 @@
 }
 .upper_images{
     display: flex;
-    width:1201px;
+    max-width:1201px;
     height:619px;
     gap: 104px;
 }
 .lower_images{
     display: flex;
     margin-top:70px;
-    width:1201px;
+    max-width:1201px;
     height:619px;
     gap: 104px;
 }
 .upper_left_image{
-    width:619px;
+    max-width:619px;
     height: 617px;
     gap: 24px;
     
 }
 .upper_right_image{
     
-    width:619px;
+    max-width:619px;
     height: 617px;
     gap: 24px;
 
 }
 .lower_left_image{
-    width:619px;
+    max-width:619px;
     height: 619px;
     gap: 24px;
 }
 .lower_right_image{
-    width:619px;
+    max-width:619px;
     height: 619px;
     gap: 24px;
 
 }
 .left_image_banner{
-    width: 548px;
+    max-width: 548px;
     height: 525px;
     border-top-right-radius:80px;
     overflow: hidden;
@@ -752,7 +762,7 @@
 }
 .left_image_footer{
     margin-top:30px;
-    width: 548px;
+    max-width: 548px;
     height: 67px;
     gap: 260px;
     display: flex;
@@ -809,14 +819,14 @@
 
 }
 .right_image_banner{
-    width: 548px;
+    max-width: 548px;
     height: 525px;
     border-top-left-radius:80px;
     overflow: hidden;
 }
 .right_image_footer{
     margin-top:30px;
-    width: 548px;
+    max-width: 548px;
     height: 67px;
     gap: 260px; 
     display: flex;
@@ -871,20 +881,20 @@
     border: 2px;
 }
 .lower_left_image{
-    width:619px;
+    max-width:619px;
     height: 617px;
     gap: 24px;
 
 }
 .lower_left_image_banner{
-    width: 548px;
+    max-width: 548px;
     height: 525px;
     border-bottom-right-radius:80px;
     overflow: hidden;
 }
 .lower_left_image_footer{
     margin-top:30px;
-    width: 548px;
+    max-width: 548px;
     height: 67px;
     gap: 260px;
     display: flex;
@@ -939,14 +949,14 @@
 
 
 .lower_right_image_banner{
-    width: 548px;
+    max-width: 548px;
     height: 525px;
     border-bottom-left-radius:80px;
     overflow: hidden;
 }
 .lower_right_image_footer{
     margin-top:30px;
-    width: 548px;
+    max-width: 548px;
     height: 67px;
     gap: 260px;
     display: flex;
@@ -993,21 +1003,23 @@
     border: 2px;
 }
 .history{
-    padding-top: 10px;
-    width: 100vw;
+    width:100%;
     height: 457px;
-    margin-top: 300px;
-    margin-left:-25px;
+    margin-top: 1500px;
+    margin-left:auto;
+    margin-right:auto;
     background-color: #F4F0EC;
+    display: flex;
+    justify-content: center;
 
 }
 .contents_of_history{
-    width: 1082;
-    height: 155px;
-    margin-top: 152px;
-    margin-left: 234px;
+    max-width: 1082;
+    height: auto;
+    margin-top:142px;
     gap: 76px;
     display: flex;
+    
 }
 .first_content{
     width: 192px;
@@ -1169,10 +1181,11 @@
     text-align: center;
 }
 .articles_and_news{
-    width: 1200px;
+    max-width: 1200px;
     height: 714px;
     margin-top: 120px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 52px;
     text-align:center
 
@@ -1528,7 +1541,8 @@
     width: 568px;
     height: 374px;
     margin-top: 200px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 80px 315px 80px 315px;
     border-radius: 70px;
     gap: 10px;
@@ -1636,7 +1650,8 @@
     width:1196px;
     height:577px;
     margin-top: 260px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 134px;
 
 }
@@ -1832,211 +1847,63 @@
 /* media queries*/
 
 
-
-@media all and (max-width:768px){
+@media (max-width:768px){
     .header{
-        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
         flex-direction: column;
-        gap: 15px;
-        margin-left: 269px;
-    }
-    .header_left{
-        margin-left:-445px;
-    }
-    .image_banner{
-    
-        margin-left:134px;
-        margin-top:106px;
-
+        gap: 20px;
     }
     .project_interior_realization{
-        width: 394px;
         flex-direction: column;
-        margin-left: 568px;
-        gap: 67px;
     }
     .image_banner_2{
-        margin-left: 410px;
-        margin-top: 97px;
-        flex-direction: column;
+        margin-top: -1300px;
+        flex-direction:column-reverse;
         align-items: center;
-        width: 650px;
-    }
-    .image_banner_left{
-        margin-top:0px;
+        
     }
     .image_banner_right{
-        margin-top:-1515px;
-        margin-left:-213px;
+        margin-top: auto;
     }
-    .review{
-        margin-left: 141px;
-        height: 1416px;
-        margin-top: 100;
-    }
-    .reviews_division{
-        width:700px;
-    }
-    .review_head{
-        margin-left:303px;
+    .image_banner_left{
+        margin-top: auto;
     }
     .comments{
-        height: 1200;
         flex-direction: column;
+        align-items:center;
+    }
+    .review{
         align-items: center;
-        gap:62px;
-    }
-    .logos{ 
-        width: 600px;
-        margin-left: 205px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
-    .logo_one{
-        width: 170px;
-    }
-    .logo_two{
-        width: 142px;
-    }
-    .logo_three{
-        margin-right: -331px;
-        width: 1px;
-    }
-    .logo_four{
-        width: 347px;
-        margin-left: 252px;
-    }
-    .logo_five{
-        margin-right: -106px;
-        width: 2px;
-        margin-left: -109px;
-    }
-    .projects{
-        height: 2929px;
-        width: 599px;
-        margin-left: 379px;
-        margin-top: 350px;
-        align-content: center;
-    
-    }
-    .project_head_and_para{
-        width: 710px;
-        font-size: 40px;
-        justify-content: center;
-    }
-    .project_head{
-        width:710px;
-        font-size:40px;
-    }
-    .project_para{
-        width: 673px;
-        height: 66px;
-        font-size:22px;
-        margin-top:55px;
+        height:1352px;
     }
     .images_inside{
-        height:2000px;
+        margin-left:auto;
+    }
+    .projects{
+        margin-top:100px;
     }
     .upper_images{
+        align-items: center;
         flex-direction: column;
-        gap:50px;
-        margin-left:309px;
+        gap:20px;
+        
     }
     .lower_images{
+        align-items: center;
         flex-direction: column;
-        gap:50px;
-        margin-top:700px;
-        margin-left:309px;
+        margin-top:679px;
+        gap:20px;
+
     }
     .history{
-        margin-left:345px;
-        width:768px;
-        margin-top:100px;
-        justify-content: center;
+        margin-top: 2744px;
     }
     .contents_of_history{
-        margin-left: -169px;
-        margin-top: 23px;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
-    .first_content{
-        margin-left: 196px;
-        width: 145px;
-    }
-    .second_content{
-       
-        width:153px;
-    }
-    .third_content{
-        margin-left: 180px;
-        width: 135px;
-    }
-    .fourth_content{
-        margin-left: -19px;
-        width: 303px;
-    }
-    .line_two{
-        border:none;
-    }
-    .articles_and_news{
-        margin-left: 13px;
-        height: 2000px;
-    }
-    .article_head{
-        margin-left: 272px;
-        width: 650;
-        height: 200px;
-        margin-top: 1px;
-
-    }
-    .article_heading{
-        width:600px;
-        font-size:40px;
-    }
-    .article_para{
-        margin-left: -77px;
-        font-size: 21px;
-        margin-top: 62px;
-    }
-    .image_division{
-        margin-left: 385px;
-        width: 700px;
-        height: 1650px;
         flex-direction: column;
-        align-items: center;
     }
-    .join_interno{
-        margin-left: 130px;
-        margin-top: 100px;
+    .logos{
+        grid-template-columns:min-content;
     }
-    .final_div{
-        margin-top: 149px;
-        width: 768px;
-        margin-left: 208px;
-        height: 1200px;
-    }
-    .final_contents{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
-    .left_contents{
-        width:1200px;
 
-    }
-    .middle_div{
-        margin-left:-95px;
-    }
-    .final_footer{
-        margin-top:428px;
-    }
-    .last_contents{
-        width:760px;
-        font-size: 22;
-    }
 }   
