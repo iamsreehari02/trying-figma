@@ -55,6 +55,7 @@
     margin-left: 150px;
     padding-top: 20px;
     padding-left: 10px;
+    border-radius: 70px;
 
 }
 .inside_banner{
@@ -1826,3 +1827,216 @@
     letter-spacing: 0.01em;
     color: #4D5053;
 }
+
+
+/* media queries*/
+
+
+
+@media all and (max-width:768px){
+    .header{
+        width: 700px;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 269px;
+    }
+    .header_left{
+        margin-left:-445px;
+    }
+    .image_banner{
+    
+        margin-left:134px;
+        margin-top:106px;
+
+    }
+    .project_interior_realization{
+        width: 394px;
+        flex-direction: column;
+        margin-left: 568px;
+        gap: 67px;
+    }
+    .image_banner_2{
+        margin-left: 410px;
+        margin-top: 97px;
+        flex-direction: column;
+        align-items: center;
+        width: 650px;
+    }
+    .image_banner_left{
+        margin-top:0px;
+    }
+    .image_banner_right{
+        margin-top:-1515px;
+        margin-left:-213px;
+    }
+    .review{
+        margin-left: 141px;
+        height: 1416px;
+        margin-top: 100;
+    }
+    .reviews_division{
+        width:700px;
+    }
+    .review_head{
+        margin-left:303px;
+    }
+    .comments{
+        height: 1200;
+        flex-direction: column;
+        align-items: center;
+        gap:62px;
+    }
+    .logos{ 
+        width: 600px;
+        margin-left: 205px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .logo_one{
+        width: 170px;
+    }
+    .logo_two{
+        width: 142px;
+    }
+    .logo_three{
+        margin-right: -331px;
+        width: 1px;
+    }
+    .logo_four{
+        width: 347px;
+        margin-left: 252px;
+    }
+    .logo_five{
+        margin-right: -106px;
+        width: 2px;
+        margin-left: -109px;
+    }
+    .projects{
+        height: 2929px;
+        width: 599px;
+        margin-left: 379px;
+        margin-top: 350px;
+        align-content: center;
+    
+    }
+    .project_head_and_para{
+        width: 710px;
+        font-size: 40px;
+        justify-content: center;
+    }
+    .project_head{
+        width:710px;
+        font-size:40px;
+    }
+    .project_para{
+        width: 673px;
+        height: 66px;
+        font-size:22px;
+        margin-top:55px;
+    }
+    .images_inside{
+        height:2000px;
+    }
+    .upper_images{
+        flex-direction: column;
+        gap:50px;
+        margin-left:309px;
+    }
+    .lower_images{
+        flex-direction: column;
+        gap:50px;
+        margin-top:700px;
+        margin-left:309px;
+    }
+    .history{
+        margin-left:345px;
+        width:768px;
+        margin-top:100px;
+        justify-content: center;
+    }
+    .contents_of_history{
+        margin-left: -169px;
+        margin-top: 23px;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .first_content{
+        margin-left: 196px;
+        width: 145px;
+    }
+    .second_content{
+       
+        width:153px;
+    }
+    .third_content{
+        margin-left: 180px;
+        width: 135px;
+    }
+    .fourth_content{
+        margin-left: -19px;
+        width: 303px;
+    }
+    .line_two{
+        border:none;
+    }
+    .articles_and_news{
+        margin-left: 13px;
+        height: 2000px;
+    }
+    .article_head{
+        margin-left: 272px;
+        width: 650;
+        height: 200px;
+        margin-top: 1px;
+
+    }
+    .article_heading{
+        width:600px;
+        font-size:40px;
+    }
+    .article_para{
+        margin-left: -77px;
+        font-size: 21px;
+        margin-top: 62px;
+    }
+    .image_division{
+        margin-left: 385px;
+        width: 700px;
+        height: 1650px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .join_interno{
+        margin-left: 130px;
+        margin-top: 100px;
+    }
+    .final_div{
+        margin-top: 149px;
+        width: 768px;
+        margin-left: 208px;
+        height: 1200px;
+    }
+    .final_contents{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .left_contents{
+        width:1200px;
+
+    }
+    .middle_div{
+        margin-left:-95px;
+    }
+    .final_footer{
+        margin-top:428px;
+    }
+    .last_contents{
+        width:760px;
+        font-size: 22;
+    }
+}   
