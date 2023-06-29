@@ -1655,8 +1655,8 @@
     color: #292F36;
 }
 .final_div{
-    width:1196px;
-    height:577px;
+    max-width:1196px;
+    height:auto;
     margin-top: 260px;
     margin-left: auto;
     margin-right: auto;
@@ -1665,8 +1665,8 @@
 }
 .final_contents{
     margin-left: 10px;
-    width: 1195px;
-    height: 370px;
+    max-width: 1195px;
+    height: auto;
     gap: 101px;
     display: flex;
 
@@ -1945,10 +1945,16 @@
     }
     .final_contents{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(4, 1fr);
     }
     .final_footer{
         margin-top:1062px;
     }
-
+    .left_contents{
+        grid-column: auto;
+    }
+    .third_div{
+        grid-column: 1;
+    }
 }   
