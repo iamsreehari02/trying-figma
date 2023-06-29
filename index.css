@@ -184,11 +184,11 @@
 
 }
 .image_banner_2{
-    max-width: 1200px;
+    max-width: 1090px;
     height: auto;
     padding-top: 1421px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     gap: 75px;
     display: flex;
     justify-content: end;
@@ -196,7 +196,7 @@
 }
 .image_banner_left{
     width: 472px;
-    height: autopx;
+    height: auto;
     gap: 45px;
     margin-top: -1300px;
     margin-left:-120px;
