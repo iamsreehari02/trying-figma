@@ -1206,7 +1206,7 @@
 }
 .image_division{
     margin-top:50px;
-    width: 1200px;
+    max-width: 1200px;
     height: 521px;
     gap: 27px;
     display: flex;
@@ -1862,8 +1862,6 @@
 @media (max-width:768px){
   
     .header{
-        margin-left: auto;
-        margin-right: auto;
         flex-direction: column;
         gap: 20px;
     }
@@ -1924,7 +1922,6 @@
         display: inline-block;
     }
     .image_division{
-        margin-left: 177px;
         display: inline-block;
     }
 
