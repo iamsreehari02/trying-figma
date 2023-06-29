@@ -184,13 +184,14 @@
 
 }
 .image_banner_2{
-    max-width: 1091px;
+    max-width: 1200px;
     height: auto;
     padding-top: 1421px;
     margin-left: auto;
     margin-right:auto;
     gap: 75px;
     display: flex;
+    justify-content: end;
 
 }
 .image_banner_left{
@@ -1947,9 +1948,6 @@
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(4, 1fr);
-    }
-    .final_footer{
-        margin-top:1062px;
     }
     .left_contents{
         grid-column: auto;
